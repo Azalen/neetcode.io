@@ -16,7 +16,7 @@ const int   SIZE    = 20000;
  *      APPROACHES: 
  *          (1) BRUTE FORCE     time: O(n²)         space: O(1)
  *          (2) SORTING         time: O(n*logn)     space: O(1)
- *          (3) HASH MAP        time: O(n)          space: O(n)
+ *          (3) HASH TABLE      time: O(n)          space: O(n)
  * */
 
 bool containsDuplicatesBruteForce(const vector<int> & nums){
@@ -68,6 +68,7 @@ int main(){
     clock_t start, end;
     double runtime;
     cout << endl;
+    
     start = clock();
     cout << boolalpha << setw(26) << containsDuplicatesBruteForce(bruteForceNums) << endl;
     end = clock();
