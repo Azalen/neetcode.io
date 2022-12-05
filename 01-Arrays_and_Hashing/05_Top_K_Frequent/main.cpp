@@ -61,7 +61,7 @@ int main(){
 
     end = clock();
     runtime = (end - start)*1000 / CLOCKS_PER_SEC ;
-    cout << setw(16) << "SORTING" << ":" << setw(7) << runtime << "ms" << endl << endl;
+    cout << setw(16) << "RUNTIME" << ":" << setw(7) << runtime << "ms" << endl << endl;
 
 
     return 0;
